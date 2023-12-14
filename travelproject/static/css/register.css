@@ -1,0 +1,33 @@
+body{
+    background-color:skyblue;
+    font-family:arial;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    font-size:22px;
+
+    }
+    #container{
+    background-color:white;
+    padding:30px 50px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.3)
+    }
+    form input,label{
+    margin:10px 0;
+    font-size:14px;
+    border:1;
+    border-color:lightgray;
+    }
+    #button{
+    background-color:skyblue;
+    border:none;
+    color:white;
+    border-radius:5px;
+    width:100%;
+    cursor:pointer;
+    padding:10px 10px;
+    }
